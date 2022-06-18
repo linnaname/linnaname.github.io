@@ -18,7 +18,7 @@
 
 
 ### 游记
-- [骑行去四川](blog/riding-to-sichuan.md)
+- [骑行去四川](blog/骑行去四川.md)
 
 
 ### 念念碎
