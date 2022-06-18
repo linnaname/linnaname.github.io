@@ -1,4 +1,4 @@
-> 如果把这本书比喻成一只狗，那么它将用鼻子轻擦创建活动，尾巴扫过设计与测试，而同时向其它开发活动汪汪叫。
+如果把这本书比喻成一只狗，那么它将用鼻子轻擦创建活动，尾巴扫过设计与测试，而同时向其它开发活动汪汪叫。
 
 ## 欢迎进入Software Construction世界
 
@@ -42,9 +42,6 @@
 
 
 ## Software Construction的先决条件
-
-<br>
-
 
 ###  先决条件重要性 
 > A common denominator of programmers who build high-quality software is their use of high-quality practices. Such practices emphasize quality at the beginning, middle, and end of a project.
