@@ -18,10 +18,7 @@
 
 <br>
 
-
 ## Reading Notes
-
-<br>
 
 ### Tech
 
