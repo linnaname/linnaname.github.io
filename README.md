@@ -1,5 +1,3 @@
-## Welcome to GitHub Pages
-
 世事一场大梦，人生几度秋凉？
 
 ## Blog
@@ -19,6 +17,16 @@
 ### 念念碎
 
 <br>
+
+
+## Reading Notes
+
+<br>
+
+### Tech
+
+- [Code Complete](reading-notes/tech/code-complete.md)
+
 
 ## About Me
 
