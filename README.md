@@ -14,7 +14,9 @@
 
 ### 团队管理
 
+- [绩效管理概览](teamlead/performance_overview.md)
 - [如何做好绩效面谈](teamlead/performance_interview.md)
+
   
 
 <br>
