@@ -13,7 +13,7 @@
 
 
 ### 团队管理
-
+- [如何进行技术面试](teamlead/interview.md)
 - [绩效管理概览](teamlead/performance_overview.md)
 - [如何做好绩效面谈](teamlead/performance_interview.md)
 - [团队协作的五大障碍](teamlead/dysfunctions_of_team.md)
