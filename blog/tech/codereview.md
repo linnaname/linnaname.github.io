@@ -1,5 +1,5 @@
 
-![wtf-per-minute](../statistic/img/blog/tech/wtf-per-minute.jpeg)
+![wtf-per-minute](../../statistic/img/blog/tech/wtf-per-minute.jpeg)
 
 # 我们是如何做 code review 的
 
