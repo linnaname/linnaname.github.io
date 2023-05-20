@@ -6,6 +6,7 @@
 ### 总结
 
 - [2022 年度小结](summarize/2022_overview.md)
+- [我是如何成为管理者的](/teamlead/team_fix.md)
 
 
 ### 技术
