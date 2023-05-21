@@ -11,6 +11,7 @@
 ### 技术
 - [我们是如何做代码评审的](blog/tech/codereview.md)
 - [如何进行技术面试](teamlead/interview.md)
+- [事故报告：从失败中学习](blog/tech/%20learning_from_failure.md)
 <br>
 
 
