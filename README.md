@@ -16,6 +16,7 @@
 
 
 ### 团队管理
+- [想成为团队管理者可能缺的是机会](teamlead/team_fix.md)
 - [绩效管理概览](teamlead/performance_overview.md)
 - [如何做好绩效面谈](teamlead/performance_interview.md)
 - [团队协作的五大障碍](teamlead/dysfunctions_of_team.md)
