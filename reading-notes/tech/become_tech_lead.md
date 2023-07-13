@@ -1,0 +1,1 @@
+Leadership isthe process of creating an environment in which peoplebecome empowered.
