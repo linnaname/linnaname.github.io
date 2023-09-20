@@ -6,6 +6,7 @@
 ### 总结
 
 - [2022 年度小结](summarize/2022_overview.md)
+- [在 100 天里瘦了 30 斤](blog/how_to_lose_wegiht.md)
 
 
 ### 技术
