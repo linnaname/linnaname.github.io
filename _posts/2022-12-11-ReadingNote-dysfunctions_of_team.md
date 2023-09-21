@@ -1,18 +1,16 @@
 ---
 layout:     post
 title:      团队协作的五大障碍
-subtitle:   《团队协作的五大障碍》读书笔记
+subtitle:   读书笔记
 date:       2022-12-11
 author:     Lnn
-header-img: img/home-bg-art.jpg
+header-img: img/teamlead/tl_work.png
 catalog: 	 true
 tags:
     - 团队协作
     - 读书笔记
     - 障碍
 ---
-
-![dysfunctions of team](https://linnaname.github.io/img/teamlead/tl_work.png)
 
 《团队协作的五大障碍》作者通过一个高管团队的故事，讲述了团队协作中的五大障碍，五大障碍共同形成了一个模式，每一项都可能成为致命杀手。同时介绍要克服这些障碍，需要遵守什么原则。
 

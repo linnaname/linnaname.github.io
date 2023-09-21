@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      代码大全
+title:      重读代码大全
 subtitle:   每位工程师都应该读的书
 date:       2022-07-10
 author:     Lnn

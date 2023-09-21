@@ -13,9 +13,6 @@ tags:
 ---
 
 
-
-# 在 100 天里瘦了 30 斤
-
 裸身高 169 ~ 172 左右，巅峰时期完全没有小肚子的体重在 120 斤以内。减肥前体重 160 斤，100 天内减了 30 斤左右，腰围瘦了 10 cm 左右。
 ![wtf-per-minute](https://linnaname.github.io/img/life/weight/IMG_1102.jpeg)
 ![wtf-per-minute](https://linnaname.github.io/img/life/weight/IMG_1115.jpeg)
