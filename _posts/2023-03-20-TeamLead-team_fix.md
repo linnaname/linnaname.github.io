@@ -3,7 +3,7 @@ layout:     post
 title:      成为团队管理者可能缺的是机会
 subtitle:   我是如何成为管理者的
 date:       2023-03-20
-author:     BY
+author:     Lnn
 header-img: img/home-bg-art.jpg
 catalog: 	 true
 tags:
@@ -29,7 +29,7 @@ tags:
 
 但是 2022 年初大团队接手了一个坑比较多业务和一部分移交过来的人员，俊文和我沟通之后让我参与到这个刚交接过来的业务中。于是开启了一段新的挑战，需要注意的是这时候我是以一个普通工程师的角色加入的。
 
-![bigshit](img/teamlead/bigshit.gif)
+![bigshit](https://linnaname.github.io/img/teamlead/bigshit.gif)
 
 ## 从实际情况出发，先了解再参与
 
@@ -66,9 +66,9 @@ tags:
 团队负责的是登录、支付这类基础服务，因此业务 metric 也重点关注这两个业务。支付业务 metric 会覆盖用户发起支付、下单、到账整个生命周期，比如下单成功次数、下单失败次数、下单失败每一个失败类型的次数、支付回调处理成功失败的次数等你，可以细粒度到秒级别。
 
 
-![下单失败](img/blog/tech/metric_01)
+![下单失败](https://linnaname.github.io/img/blog/tech/metric_01)
 
-![登录鉴权](img/blog/tech/metric_02)
+![登录鉴权](https://linnaname.github.io/img/blog/tech/metric_02)
 
 
 **业务埋点**
@@ -84,8 +84,8 @@ tags:
 - 核心接口的更细粒度的报警
 - 业务埋点和业务日志的异常报警
 
-![业务日志告警](img/teamlead/metric_monitor_02)
-![metric 告警](img/teamlead/metric_monitor_01.jpeg)
+![业务日志告警](https://linnaname.github.io/img/teamlead/metric_monitor_02)
+![metric 告警](https://linnaname.github.io/img/teamlead/metric_monitor_01.jpeg)
 
 
 这些报警会进行分级并集中到短信、电话以及 Slack 告警频道里
@@ -238,17 +238,17 @@ tags:
 
 在参与到这个团队业务的 3 个月后我成为服务端的负责人，那之后的一段时间虽然在 title 上还没有给予我负责人的头衔，但是事实上我已经成了团队的负责人。6 个月之后在一次组织架构调整中，我顺理成章地成为了团队负责人，团队成员包括：客户端研发 4 人、服务端研发 3 人、QA 1人（另外包括 2 名外包）、产品经理 1 人、前端研发 1 人。
 
-![wtf-per-minute](img/teamlead/team_fix_02)
+![wtf-per-minute](https://linnaname.github.io/img/teamlead/team_fix_02)
 
 
 
 到了年底被直属主管和部门负责人提名年度优秀员工
 
-![wtf-per-minute](img/teamlead/team_fix_01)
+![wtf-per-minute](https://linnaname.github.io/img/teamlead/team_fix_01)
 
 然后被评选为 100 多人的大团队里唯一一个**年度优秀员工**
 
-![youxiu](img/blog/summarize/2022-12-31_07.jpg)
+![youxiu](https://linnaname.github.io/img/blog/summarize/2022-12-31_07.jpg)
 
 
 **一个员工在原有职级上想要往上晋升，可能需要两到三个季度持续表现出上一个职级的能力才可能获得机会。很多时候我们会过分地纠结于是先付出还是先得到，但这样的犹豫可能会很容易让机会溜走**。
