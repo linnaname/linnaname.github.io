@@ -1,7 +1,7 @@
 # Site settings
 title: 不二木子
 SEOTitle: 不二木子的博客 | Lin Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/IMG_1907.jpeg
 email: utodea@gmail.com
 description: "且当无聊絮絮叨叨."
 keyword: "Lin, Lin Blog, 不二木子的博客"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/linnaname/linnaname.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "但愿离去是幸，我愿永不归来!"
-sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/IMG_1347.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
