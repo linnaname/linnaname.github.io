@@ -1,16 +1,14 @@
 ---
 layout:     post
-title:      骑行去四川
+title:      2022 年总结
 subtitle:   毕业旅行
-date:       2016-07-10
+date:       2023-01-02
 author:     BY
 header-img: img/home-bg-art.jpg
 catalog: 	 true
 tags:
-    - 骑行
-    - 四川
-    - 毕业
-    - 旅行
+    - 总结
+    - 2022
 ---
 
 
