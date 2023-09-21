@@ -37,7 +37,7 @@
 
 ## 「目标管理」与「绩效评估」的关系
 
-![两者关系](../statistic/img/teamlead/performance_target.png)
+![两者关系](img/teamlead/performance_target.png)
 
 OKR是绩效评估的**定性输入**，**不直接考核「OKR的达成率」**，而是综合考虑员工为团队做出的贡献/价值**是否达到当前职级**的要求和预期。
 - 每个人OKR的难度不同，OKR评分不能直接反映绩效结果的价值；
@@ -69,7 +69,7 @@ Tips：
 - 与员工当前职级要求和预期比：工作产出应该符合岗位、职级的预期要求
 -  评价实际为团队做出的贡献/价值，而不是 OKR 的完成率（综合考虑目标挑战性、结果的价值贡献）
 
-![评价标准](../statistic/img/teamlead/performance_standard.png)
+![评价标准](img/teamlead/performance_standard.png)
 
 <br>
 

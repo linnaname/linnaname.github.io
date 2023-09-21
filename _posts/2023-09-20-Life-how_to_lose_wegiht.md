@@ -1,8 +1,24 @@
+---
+layout:     post
+title:      在 100 天里瘦了 30 斤
+subtitle:   我是如何瘦下来的
+date:       2023-09-20
+author:     BY
+header-img: img/home-bg-art.jpg
+catalog: 	 true
+tags:
+    - 减肥
+    - 健康
+    - 锻炼
+---
+
+
+
 # 在 100 天里瘦了 30 斤
 
 裸身高 169 ~ 172 左右，巅峰时期完全没有小肚子的体重在 120 斤以内。减肥前体重 160 斤，100 天内减了 30 斤左右，腰围瘦了 10 cm 左右。
-![wtf-per-minute](../statistic/img/life/weight/IMG_1102.jpeg)
-![wtf-per-minute](../statistic/img/life/weight/IMG_1115.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1102.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1115.jpeg)
 
 # 饮食
 
@@ -118,9 +134,9 @@
 如何测量体重？建议早上起床如厕后去衣称净重,每天只测一次。**不需要**同一天多个时间段的多次体重。**每天大致相同条件下只测一次体重有利于管理行为和确定衡量标准**。
 
 
-![wtf-per-minute](../statistic/img/life/weight/IMG_1111.jpeg)
-![wtf-per-minute](../statistic/img/life/weight/IMG_1112.jpeg)
-![wtf-per-minute](../statistic/img/life/weight/IMG_1113.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1111.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1112.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1113.jpeg)
 
 
 减肥的前两个月的体重总体是震荡下降的，在两个月左右的时间里减了 20 斤。从镜子里我自己几乎看不到体型上有太大的变化，但我妈说我没那么浮肿了脖子上的肉也少了。这个阶段我也并没有测量过腰围。
@@ -134,10 +150,10 @@
 Day 90 ~ Day 120 的腰围、体重变化则相对较小。Day 60 ~ Day 120 这两个月里体重的变化往往也伴随着腰围的变化。这也告诉我们减肥一定要坚持到最后阶段，肉眼可见的变化往往是突然而且非常快速的。
 
 
-![wtf-per-minute](../statistic/img/life/weight/IMG_1115.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1115.jpeg)
 
 
-![wtf-per-minute](../statistic/img/life/weight/IMG_1114.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1114.jpeg)
 
 
 
@@ -153,19 +169,19 @@ Day 90 ~ Day 120 的腰围、体重变化则相对较小。Day 60 ~ Day 120 这�
 
 **一把胶带尺子**。主要用于测量腰围，当然也可以用它记录胸围、臀围、腿围等。路边店买的，一块钱。
 
-![wtf-per-minute](../statistic/img/life/weight/IMG_1101.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1101.jpeg)
 
 
 ### 用到的一些 App
 
 **体重记录**：我用的大概是 2019 年买的**华为体脂称**。需要在手机上下载 **HUAWEI Health** 这个应用。连上蓝牙之后，它可以记录你的体重及身体成分等信息，各种指标如体脂率、肌肉量等。在使用的过程中同样还遇到了一个问题，在体重称的数据不会自动同步到 App 上必须要在 App 上点“开始测量体重”然后站到体重称上测量的数据才会同步到 App 上。算是非常不好的体验，之前在小米体重秤上没有遇到过。以后可能不会买华为的体脂称。
 
-![wtf-per-minute](../statistic/img/life/weight/IMG_1105.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1105.jpeg)
 
 
 **运动记录**：用我之前买的小米手环 8 NFC 版，轻+续航久。手机我基本不带，基本上也不听音乐。出门只带钥匙和一个运动手环。主要记录的指标包括：运动时间、运动步数、心率。同样也需要下载一个 Mi Fitness。不过它有一个不太好的地方，每天的运动数据都需要手动去同步一下，我打开了一个类似自动同步的开关并没有什么作用。这也导致了好多次我并不会刻意去同步导致了前一天或前几天的运动数据缺失了。
 
-![wtf-per-minute](../statistic/img/life/weight/IMG_1106.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1106.jpeg)
 
 
 
@@ -173,12 +189,12 @@ Day 90 ~ Day 120 的腰围、体重变化则相对较小。Day 60 ~ Day 120 这�
 
 **薄荷健康**：因为 HUAWEI Health 的体重曲线没有办法看所有数据并且没有功能用于记录腰围数据，**在体重减到了 140 斤左右时**，我下载了薄荷健康。它可以查看所有的体重数据，提供一条体重曲线，同时也可以记录每天的维度。麻烦的是我需要在华为体重秤上称完体重之后，在薄荷上手动记录体重。
 
-![wtf-per-minute](../statistic/img/life/weight/IMG_1114.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1114.jpeg)
 
 
 **Apple Health**：我会把 HUAWEI Health、Mi Fitness、薄荷健康的数据全部授权给 Apple Health。主要是为了有一个**跨越数年**的长期记录，其它 App 可能在减肥结束一段时间之后很可能就卸载了。但我本身用它用的很少，也没太注意它的汇总逻辑和汇总数据。
 
-![wtf-per-minute](../statistic/img/life/weight/IMG_1102.jpeg)
+![wtf-per-minute](img/life/weight/IMG_1102.jpeg)
 
 因为没有买 Apple Watch 的计划，所以我连 Apple Fitness 也没有用，从身边使用 Apple Watch 同事那了解到其续航能力确实是个大问题。在减肥的过程中，我只想尽可能地减少负担。即使是所有的运动数据不记录也无所谓。
 

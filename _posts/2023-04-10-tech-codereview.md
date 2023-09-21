@@ -1,5 +1,17 @@
+---
+layout:     post
+title:      我们是如何做 code review 的
+subtitle:   从自己开始，从现在开始
+date:       2023-04-10
+author:     BY
+header-img: img/home-bg-art.jpg
+catalog: 	 true
+tags:
+    - 代码评审
+    - code review
+---
 
-![wtf-per-minute](../../statistic/img/blog/tech/wtf-per-minute.jpeg)
+![wtf-per-minute](img/blog/tech/wtf-per-minute.jpeg)
 
 # 我们是如何做 code review 的
 

@@ -1,6 +1,6 @@
 
 
-![](../../statistic/img/teamlead/project_02)
+![](img/teamlead/project_02)
 
 
 

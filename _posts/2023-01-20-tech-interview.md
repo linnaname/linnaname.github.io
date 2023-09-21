@@ -1,3 +1,17 @@
+---
+layout:     post
+title:      如何进行工程师面试的
+subtitle:   面试官视角
+date:       2023-01-20
+author:     BY
+header-img: img/home-bg-art.jpg
+catalog: 	 true
+tags:
+    - 面试
+    - Engineer Interview
+    - 工程师面试
+---
+
 
 
 - [前言](#前言)

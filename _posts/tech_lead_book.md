@@ -2,13 +2,13 @@
 
 
 
-![ddd](../statistic/img/teamlead/tech-lead-la-gi-1024x630.png.crdownload)
+![ddd](img/teamlead/tech-lead-la-gi-1024x630.png.crdownload)
 
 
 
 
 
-![dd](../statistic/img/teamlead/tech_lead_boud.png)
+![dd](img/teamlead/tech_lead_boud.png)
 
 
 
