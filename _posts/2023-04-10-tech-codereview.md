@@ -4,14 +4,12 @@ title:      我们是如何做 code review 的
 subtitle:   从自己开始，从现在开始
 date:       2023-04-10
 author:     Lnn
-header-img: img/home-bg-art.jpg
+header-img: img/blog/tech/wtf-per-minute.jpeg
 catalog: 	 true
 tags:
     - 代码评审
     - code review
 ---
-
-![wtf-per-minute](https://linnaname.github.io/img/blog/tech/wtf-per-minute.jpeg)
 
 
 关于 code review 在开发中的重要性已经有很多的文章讨论，我这里不想再过多重复。但是作为 Tech Lead 在工程实践上仅能保留一条团队规则的话，那么坚持 code review 是我愿意持续坚持的。
