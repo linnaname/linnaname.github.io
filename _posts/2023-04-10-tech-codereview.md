@@ -70,3 +70,5 @@ tags:
 根据破窗效应，一旦有流于形式的情况出现则这种情况就会持续蔓延开来。因此作为 Tech Lead 应该禁止“你帮我 approve 一下”这种没有任何 review 只为 approve 的行为出现。
 
 
+这篇文章也同步发布到了[知乎](https://zhuanlan.zhihu.com/p/629297197)
+
