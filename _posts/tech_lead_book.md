@@ -2,13 +2,13 @@
 
 
 
-![ddd](img/teamlead/tech-lead-la-gi-1024x630.png.crdownload)
+![ddd](https://linnaname.github.io/img/teamlead/tech-lead-la-gi-1024x630.png.crdownload)
 
 
 
 
 
-![dd](img/teamlead/tech_lead_boud.png)
+![dd](https://linnaname.github.io/img/teamlead/tech_lead_boud.png)
 
 
 

@@ -3,7 +3,7 @@ layout:     post
 title:      如何写事故故障报告
 subtitle:   从失败中学习
 date:       2023-02-20
-author:     BY
+author:     Lnn
 header-img: img/home-bg-art.jpg
 catalog: 	 true
 tags:

@@ -2,12 +2,12 @@
 # 如何做项目管理
 
 
-![](img/teamlead/project_03)
+![](https://linnaname.github.io/img/teamlead/project_03)
 ## 
 
 在产品导向的交付模式下，组织应该把技术交付团队看成利润中心而非成本中心，面向产品和业务建设跨功能和相对稳定的产品交付团队，以业务价值和业务响应来衡量和激励产品交付团队。而团队则面向业务价值，持续地迭代和学习，并积累软件资产、工程和技术资产，提升自己的响应和交付能力
 
-![](img/teamlead/project_01.png)
+![](https://linnaname.github.io/img/teamlead/project_01.png)
 
 
 

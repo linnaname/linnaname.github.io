@@ -21,9 +21,9 @@ DDI成功典范模型参考：
 
 
 对领导者的能力、潜力参考如下：
-![manager_role_1](img/teamlead/manager_role_1.png)
+![manager_role_1](https://linnaname.github.io/img/teamlead/manager_role_1.png)
 
-![manager_role_2](img/teamlead/manager_role_2.png)
+![manager_role_2](https://linnaname.github.io/img/teamlead/manager_role_2.png)
 
 ## Part 2：管理者的角色转变
 
@@ -53,7 +53,7 @@ DDI成功典范模型参考：
 
 言行一致：言所当言，行所当行
 
-![manager_role_3](img/teamlead/manager_role_3.png)
+![manager_role_3](https://linnaname.github.io/img/teamlead/manager_role_3.png)
 
 启导他人：能够识别不同个体的特点，用不同的方式启发
 
@@ -61,7 +61,7 @@ DDI成功典范模型参考：
 
 
 拥抱反馈：1）安静聆听不反驳；2）进一步澄清细节；3）表达感谢；4）切实采取行动。
-![manager_role_4](img/teamlead/manager_role_4.png)
+![manager_role_4](https://linnaname.github.io/img/teamlead/manager_role_4.png)
 
-![manager_role_5](img/teamlead/manager_role_5.png)
+![manager_role_5](https://linnaname.github.io/img/teamlead/manager_role_5.png)
 

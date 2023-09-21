@@ -80,7 +80,7 @@ LOL职业圈流传着这样一句话：
 
 > 输的时候，你说什么都像是借口
 
-![loser](img/blog/2022-06-20-01.jpeg)
+![loser](https://linnaname.github.io/img/blog/2022-06-20-01.jpeg)
 
 或许这样说过于功利，但现实总是比文字所描述的要现实得多。
 

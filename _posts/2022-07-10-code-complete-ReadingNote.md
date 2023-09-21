@@ -3,7 +3,7 @@ layout:     post
 title:      代码大全
 subtitle:   每位工程师都应该读的书
 date:       2022-07-10
-author:     BY
+author:     Lnn
 header-img: img/home-bg-art.jpg
 catalog: 	 true
 tags:
@@ -18,7 +18,7 @@ tags:
 > 在正规性与随意性之间达到平衡是非常困难的。
 
 
-![01-01](img/reading/code-complete/01-01.png)
+![01-01](https://linnaname.github.io/img/reading/code-complete/01-01.png)
 
 > Software Construction 主要包括编码和调试
 > - Software Construction 是总体设计和系统测试之间承上启下的工作。
@@ -160,14 +160,14 @@ tags:
 
 **有问题的数据结构耦合的例子**：一个程序向另一个子程序传递变量 OfficeRec。OfficeRec 有 27 个域，而被调用的子程序使用其中 16 个，这也是数据结构耦合，但是，它是一个好的数据结构耦合吗？决不是。传递 OfficeRec 使得联系是大规模的，这个事实非常明显，而传递 16 个单独参数，则又再次非常拙劣地表明了这一点，如果被调用子程序仅使用其中的 6 到 7 个域，那么单个地传递它们是个好主意。这种情况下，可以进一步对 OfficeRec 进行结构化，以使得在被调用程序中用得到的 16 个域包含在一个或两个亚结构中。
 
-![松耦合](img/reading/code-complete/05-04.jpeg)
+![松耦合](https://linnaname.github.io/img/reading/code-complete/05-04.jpeg)
 
 ### 子程序的长度
-![子程序长度](img/reading/code-complete/05-05.jpeg)
+![子程序长度](https://linnaname.github.io/img/reading/code-complete/05-05.jpeg)
 
 
 ### 防御性编程
-![防御性编程](img/reading/code-complete/05-06.jpeg)
+![防御性编程](https://linnaname.github.io/img/reading/code-complete/05-06.jpeg)
 
 
 - 使用断言
@@ -190,13 +190,13 @@ note: 假设我们有一个供外部调用的 `methodA`, 其内部有两个私�
 
 - 确保实际参数与形式参数匹配。（主要指变量类型）
 - 按照输入一修改一输出的顺序排列参数
-![列参数](img/reading/code-complete/05-07.jpeg)
+![列参数](https://linnaname.github.io/img/reading/code-complete/05-07.jpeg)
 - 如果几个子程序今使用了相似的参数，应按照不变的顺序排到这些参数。
 - 使用所有的参数 , 不使用就删掉它
 - 把状态和“错误”变量放在最后
 - 不要把子程序中的参教当作工作变量。如果你需要为全局计算的最后把最终值赋给全局变量，而不要把中间值赋给它。
 
-![说明](img/reading/code-complete/05-08.jpeg)
+![说明](https://linnaname.github.io/img/reading/code-complete/05-08.jpeg)
 
 - 应该把一个子程序中的参数个数限制在 7 个左右
 

@@ -1,6 +1,6 @@
 
 
-![](img/teamlead/project_02)
+![](https://linnaname.github.io/img/teamlead/project_02)
 
 
 
