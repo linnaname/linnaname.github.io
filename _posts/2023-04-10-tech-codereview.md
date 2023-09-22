@@ -40,7 +40,7 @@ tags:
 ### 把 code review 作为日常工作的一部分
 不管是需要把代码提交给其他同事 review 还是需要作为 reviewer 去 review 其他同事的代码，这个过程都是耗时的。把 code review 作为日常工作的一部分可以让工作更有计划同时也让大家更加从容，使得 code review 制度更容易得到持续执行。
 
-在这一点上 Tech Lead 应该需要起到决定性的作用，在团队内达成一致，让团队成员放心的花一些时间来做  code review。
+**在这一点上 Tech Lead 应该需要起到决定性的作用，在团队内达成一致，让团队成员放心的花一些时间来做  code review。**
 
 
 ### 每次提交 review 的代码应该尽可能少
