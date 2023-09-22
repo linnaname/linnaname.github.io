@@ -1,10 +1,10 @@
 # Site settings
 title: 不二木子
-SEOTitle: 不二木子的博客 | Lin Blog
+SEOTitle: 不二木子的博客 | Lnn Blog
 header-img: img/post-bg-unix-linux.jpg
 email: utodea@gmail.com
 description: "且当无聊絮絮叨叨."
-keyword: "Lin, Lin Blog, 不二木子的博客"
+keyword: "Lnn, Lnn Blog, 不二木子的博客"
 url: "http://linnaname.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/linnaname/linnaname.github.io.git" # you code repository
