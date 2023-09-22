@@ -45,8 +45,6 @@ tags:
 ![酒店观景](https://linnaname.github.io/img/life/travel/okinawa/IMG_1119.webp)
 
 
-
-
 因为看到酒店附近的海港，于是去附近逛了逛
 ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1041.jpeg)
 
@@ -77,49 +75,79 @@ tags:
 
 
 
+晚上我们找了一家居酒屋尝了一下日本的当地特色，算是非常不错吧。
+
 ## Day 2
 
-万座毛
+旅行社组织了固定的旅游目的，我们决定跟着旅行社一起走。
+
+
+#### 万座毛
 
 
 万座毛经典的象鼻子
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1071.jpeg)
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1072.jpeg)
 
 
 
-海上飘荡的船
+海上飘荡的船和这蓝天真的是绝配！
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1081.jpeg)
 
 
 
-万座毛对面的海滩
+万座毛对面的海滩，应该是一个度假村，可以清晰地看到有人在沙滩上休闲。
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1086.jpeg)
 
-
-
-
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1087.jpeg)
 
 
 
 大海共蓝天一色
 
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1088.jpeg)
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1089.jpeg)
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1091.jpeg)
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1094.jpeg)
 
-古宇利岛
 
 
+
+#### 古宇利岛
 
 
 古宇利岛俯瞰
-
-
-
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1121.webp)
 
 
 
 沙滩
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1095.jpeg)
 
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1096.jpeg)
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1097.jpeg)
+
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1101.jpeg)
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1102.jpeg)
+
+
+给大家拍合照
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1104.jpeg)
 
 
 风大的很
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1120.webp)
 
 
+
+
+中午的时候我们去了拉面店，似乎日本的很多拉面店都是用的一种机子来下单，可以自己投硬币进去下单。然后就去等着就好了，还发现这种拉面店很多人喝冰水，一般店里都有提供。
+
+
+晚上我们特意去逛了逛附近比较热闹的地方，特意找了一家 711 解决了晚餐。便利店在当地非常多，隔不远就有一家。
+
+
+## Day 3
 
 海洋水族馆
 
@@ -128,10 +156,10 @@ tags:
 美国村
 
 
-5.第三天行程
+
+6.返回
 
 DFS/奥特莱斯/3A
 
-6.返回
 
 7.整体感受
