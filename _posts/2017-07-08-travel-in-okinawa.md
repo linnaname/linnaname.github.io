@@ -4,7 +4,7 @@ title:      去冲绳旅游
 subtitle:   海的那一边
 date:       2017-07-08
 author:     Lnn
-header-img: img/life/travel/okinawa/IMG_1104.jpeg
+header-img: img/home-bg-art.jpg
 catalog: 	 true
 tags:
     - 冲绳
@@ -12,10 +12,6 @@ tags:
     - 团建
     - 日本
 ---
-
-![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1088.jpeg)
-
-
 
 
 出行时间：2017 年 6 月 9 日 ~ 6 月 12 日
@@ -159,9 +155,7 @@ tags:
 
 
 
-海洋公园
-
-看了海豚演出
+在海洋公园看了海豚演出
 ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1111.jpeg)
 
 ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1144.jpeg)
@@ -191,8 +185,6 @@ tags:
 
 
 
-
-
 之后我们又去了美国村，就在美军在冲绳的军事基地附近。那里可以说一应俱全，各种店、超市、餐厅、沙滩。看看背后美军基地，不仅感慨美国人在全球范围内都能 24 小时内随时应战不是白说的。
 
  ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1170.jpeg)
@@ -201,10 +193,19 @@ tags:
 
 ### Day 4 和 返回
 
-DFS/奥特莱斯/3A
-
+因为下午就要回杭州了，早上我们去 DFS/奥特莱斯/3A 逛了逛。一部分同事买了一些奢侈品，终于知道为什么有些女同事要特意带一个大箱子了。我遵女朋友旨意，买了一些化妆品和药膏之类的东西。
 
 ### 整体感受
+
+冲绳给我的旅游体验是非常不错的。可能因为签证审查的比较严，并没有非常多的中国游客。总体上非常舒服。
+
+
+一点其他的感受：
+- 便利店非常多，也非常方便。
+- 海在晴天下特别蓝。
+- 是一个非常有礼貌的城市，不太会出现国内车不让人的情况，基本都会让人先过去。
+- 基本能很轻松的买到一些比较腐的东西。
+- 出租车费用巨贵，不要轻易打车。
 
 ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1118.jpeg)
 
