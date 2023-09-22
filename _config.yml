@@ -74,4 +74,8 @@ service-worker: true
 
 # Friends
 friends: [
+    {
+        title: "RE1IFE",
+        href: "https://www.re1ife.top"
+    }
 ]
