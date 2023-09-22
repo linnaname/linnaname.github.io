@@ -149,17 +149,62 @@ tags:
 
 ## Day 3
 
-海洋水族馆
+和同事打算一起去一个博物馆看看，路上还是特别能感觉到日本特有的宁静，多少有点电影里小清新的感觉。
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1044.jpeg)
+
+
+参观了一个博物馆，因为是博物馆在里面也没有做拍照。
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1047.jpeg)
 
 
 
-美国村
+
+海洋公园
+
+看了海豚演出
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1111.jpeg)
+
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1144.jpeg)
+
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1148.jpeg)
 
 
 
-6.返回
+和同事一起到附近的浅谈逛了逛
+ ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1173.jpeg)
+
+ ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1176.jpeg)
+
+
+
+
+水族馆，据说这是亚洲最大的一个。现场看起来确实有些小震撼！
+ ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1153.jpeg)
+ ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1158.jpeg)
+ ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1159.jpeg)
+ ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1162.jpeg)
+
+
+
+甚至可以在水族馆里吃个饭，从这个角度看多少有点意境。
+ ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1164.jpeg)
+
+
+
+
+
+之后我们又去了美国村，就在美军在冲绳的军事基地附近。那里可以说一应俱全，各种店、超市、餐厅、沙滩。看看背后美军基地，不仅感慨美国人在全球范围内都能 24 小时内随时应战不是白说的。
+
+ ![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1170.jpeg)
+
+
+
+### Day 4 和 返回
 
 DFS/奥特莱斯/3A
 
 
-7.整体感受
+### 整体感受
+
+![](https://linnaname.github.io/img/life/travel/okinawa/IMG_1118.jpeg)
+
