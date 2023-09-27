@@ -2,7 +2,7 @@
 layout:     post
 title:      关于远程办公
 subtitle:   远程办公是否适合自己以及我是否赞同长期远程办公
-date:       2023-09-28
+date:       2023-09-21
 author:     Lnn
 header-img: img/home-bg-art.jpg
 catalog: 	 true
