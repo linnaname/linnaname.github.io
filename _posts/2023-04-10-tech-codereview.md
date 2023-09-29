@@ -14,6 +14,11 @@ tags:
 
 关于 code review 在开发中的重要性已经有很多的文章讨论，我这里不想再过多重复。但是作为 Tech Lead 在工程实践上仅能保留一条团队规则的话，那么坚持 code review 是我愿意持续坚持的。
 
+关于 code review 的各种方面，Google 出了一个最佳实践[How to do a code review](https://google.github.io/eng-practices/review/reviewer)。同时还有一本书 [Software Engineering at Google](https://abseil.io/resources/swe-book),在 [ch09](https://abseil.io/resources/swe-book/html/ch09.html) 花了一整章介绍关于它的方方面面。
+
+
+本文主要介绍自己的一些个人经验和感受，特别是作为 Tech Lead 推进团队 code review 文化的一些思考。
+
 ### 从自己开始，从现在开始
 一个很残酷的现实是国内工程师因为公司业务压力或者个人经历的原因，很多团队可能都没有实施过 code review, 那么作为 Tech Lead 想要推行严格有效得 code review 是比较困难的。这时候 Tech Lead 可以先从做好自己开始，比如从把自己的代码发给别人 review 开始，分享一些自己案例，当遇到有意思的讨论也可以发出来让更多的人参与进来讨论，实际可见的参与感或者价值是最有说服力的。
 

@@ -12,9 +12,9 @@ tags:
 ---
 
 
-加入江宏团队不久之后，我很快参与到了 [LeanCloud](https://www.leancloud.cn   ) 的即时通信、消息推送这两个服务从 Clojure 向 Golang 和 Java 的重构中。
+加入新公司不久之后，我很快参与到了 [LeanCloud](https://www.leancloud.cn   ) 的即时通信、消息推送这两个服务从 Clojure 向 Golang 和 Java 的重构中。
 
-但是 2022 年初大团队接手了一个坑比较多业务和一部分移交过来的人员，俊文和我沟通之后让我参与到这个刚交接过来的业务中。于是开启了一段新的挑战，需要注意的是这时候我是以一个普通工程师的角色加入的。
+但是 2022 年初大团队接手了一个坑比较多业务和一部分移交过来的人员，直属 Leader 和我沟通之后让我参与到这个刚交接过来的业务中。于是开启了一段新的挑战，需要注意的是这时候我是以一个普通工程师的角色加入的。
 
 ![bigshit](https://linnaname.github.io/img/teamlead/bigshit.gif)
 
