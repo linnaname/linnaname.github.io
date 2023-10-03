@@ -28,12 +28,12 @@ tags:
 在《[我们是如何做 code review](https://www.linnana.me/2023/04/10/tech-codereview/#%E5%A6%82%E6%9E%9C%E6%98%AF%E6%96%B0%E5%A2%9E%E5%8A%9F%E8%83%BD%E4%BB%A5%E5%8F%8A%E7%A8%8D%E5%A4%A7%E7%9A%84%E6%94%B9%E5%8A%A8%E8%AF%B7%E6%8F%90%E5%89%8D%E8%BE%BE%E6%88%90%E8%AE%BE%E8%AE%A1%E4%B8%8A%E7%9A%84%E5%85%B1%E8%AF%86)》中提到如果是新增功能以及稍大的改动请提前达成设计上的共识。这类前后端、客户端、后端之间达成设计一致的文档属于第一类。这类文档结构化程度没有那么明显，我们主要放在 Confluence 和 Gitlab Wiki 里。平时工作中，工程师接触可能更多的是第一类。
 
 
-这里主要谈第二类，这一类文档内容复杂，工程化的 ROI 更高，同时又因为其用户是开发者或者用户。内容往往会涉及到研发工程师、技术支持工程师、产品经理等等角色，工程化带来的业务价值也更明显。
+但这里主要谈第二类，这一类文档内容复杂，工程化的 ROI 更高，同时又因为其用户是开发者或者用户。内容往往会涉及到研发工程师、技术支持工程师、产品经理等等角色，工程化带来的业务价值也更明显。
 
 
 ## 内容是首要的
 
-**文档的内容是评判文档好坏的最好的标准。** 
+**文档通常是为了产品用户的利益而创建的**。它的主要目的通常是帮助用户完成产品的某些任务，因此在制作不同类型的技术文档时，应始终考虑到最终用户。而**文档的内容是评判文档好坏的最好的标准。** 
 
 - **信息传达**：文档的首要目标是传达信息。无论是教程、指南、手册还是说明书，文档需要提供详尽、明确和准确的信息，以满足读者的需求。良好的内容能够帮助读者理解和掌握所描述对象的知识和操作。
 - **解决问题**：开发者查阅文档的常见原因是为了解决问题。好的文档内容能够回答读者可能提出的问题，并提供解决方案和示例。它可以帮助开发者快速定位问题，并给予正确的指导，提高效率和准确性。
@@ -141,4 +141,20 @@ tags:
 
 
 #### 直接的参与感
-让团队内每个人都有参与的机会，而不是把写文档的机会或者任务把控在一到两个人的手上。直接的参与感不管是对于新人还是老同事都是最直接的。作为 TL 我一般会就一些有争议的话题咨询大家的意见，这样大家就会有参与进来的契机。
+让团队内每个人都有参与的机会，而不是把写文档的机会或者任务把控在一到两个人的手上，同时也不要出现只有某个新人比较闲于是把写文档的任务交给 TA 的情况。直接的参与感不管是对于新人还是老同事都是最直接的。作为 TL 我一般会就一些有争议的话题咨询大家的意见，这样大家就会有参与进来的契机。
+
+
+#### 不要过早追求可度量化
+
+**过分地追求可度量化**很容易导致指标倾向滑坡，比如追求工程师的 PR 数就很可能导致多了很多毫无意义的 PR。开发者类的文档可能我们会使用 TTFHW(Time to first hello world) 这类可度量的指标，但早期还是应该更注重团队内文档文化的形成。PR 数 & Issue 数、美观性再逐步去改善。
+
+
+
+## 一些不错的参考和实践
+ - [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html) 的 [ch10](https://abseil.io/resources/swe-book/html/ch10.html)
+ - [Google Technical Writing Courses](https://developers.google.com/tech-writing)
+ - [MicroSoft Writing Style Guidelines](https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/markdown/#writing-style-guidelines)
+ - [Best Practices When Documenting Your Code for Software Engineers](https://betterprogramming.pub/best-practices-when-documenting-your-code-for-software-engineers-941f0897aa0)
+ - [Google Developer Documentation Style Guide](https://developers.google.com/style)
+- [文档工程体验设计：重塑开发者体验](https://zhuanlan.zhihu.com/p/421575340)
+
