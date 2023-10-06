@@ -74,8 +74,24 @@ service-worker: true
 
 # Friends
 friends: [
+   {
+        title: "江宏",
+        href: "https://1byte.io"
+    },
+    {
+      title: "王子亭",
+      href: "https://jysperm.me"
+    }
     {
         title: "RE1IFE",
         href: "https://www.re1ife.top"
+    },
+    {
+        title: "mephisto",
+        href: "https://mephisto.cc"
+    },
+    {
+        title: "元否的工作坊",
+        href: "https://www.happyfou.com"
     }
 ]
