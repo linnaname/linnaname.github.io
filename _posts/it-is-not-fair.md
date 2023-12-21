@@ -2,7 +2,6 @@
 layout:     post
 title:      面向开发者的技术文档如何维护
 subtitle:   技术文档工程化
-date:       2023-09-28
 author:     Lnn
 header-img: img/home-bg-art.jpg
 catalog: 	 true
