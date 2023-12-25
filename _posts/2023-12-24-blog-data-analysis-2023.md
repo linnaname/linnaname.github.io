@@ -19,12 +19,12 @@ tags:
 
 9 月份把 Github Pages 的域名 CNAME 到了之前一直使用的 [www.linnana.me](https://www.linnana.me),又对博客的访问速度和性能做了简单的测试。
 
-![](https://linnaname.github.io/img/blog/summarize/2023-12-24_01.png)
+![](https://www.linnana.me/img/blog/summarize/2023-12-24-01.png)
 
 
 这次简单学习了如何使用 Google Looker Studio，导入 Google Analytics 的数据源也非常方便。
 
-![](https://linnaname.github.io/img/blog/summarize/2023-12-24_02.png)
+![](https://www.linnana.me/img/blog/summarize/2023-12-24-02.png)
 
 你可以访问[这个链接](https://lookerstudio.google.com/reporting/5b7448fe-252a-46ce-abbb-bd7c16da333a/page/fUdK)（需科学上网）体验上面这份报告。
 
