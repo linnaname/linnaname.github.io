@@ -2,7 +2,6 @@
 layout:     post
 title:      如果可以请给贫困学子一个机会
 subtitle:   关于低保户大学生助学金名额被挤掉的感想以及我自己的一些经历
-date:       2023-11-02
 author:     Lnn
 header-img: img/home-bg-art.jpg
 catalog: 	 true
