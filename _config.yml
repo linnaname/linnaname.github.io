@@ -7,7 +7,6 @@ description: "且当无聊絮絮叨叨."
 keyword: "Lnn, Lnn Blog, 不二木子的博客"
 url: "http://linnaname.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/linnaname/linnaname.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -19,7 +18,6 @@ sidebar-about-description: "但愿离去是幸，我愿永不归来!"
 # SNS settings
 RSS: true
 zhihu_username:     feng-bo-lin-1
-github_username:    linnaname
 twitter_username:   LinGoranka
 
 # Build settings
