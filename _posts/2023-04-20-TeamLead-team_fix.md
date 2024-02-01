@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      捉住成为团队管理者的机会
+title:      成为管理者之前和之后我都做了些什么
 subtitle:   我是如何成为管理者的
 date:       2023-04-20
 author:     Lnn
