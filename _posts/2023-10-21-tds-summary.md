@@ -276,6 +276,7 @@ tags:
 - **寻求持续且渐进的改进**，以小步前进，每个小步都带来改进，最终实现系统和全面的转型。这种方式效果很好，下一份工作或许可以借鉴。
 - 非常快的融入了创业公司的范围里，特别是 LeanCloud 的技术氛围。
 - 把 LeanCloud 的软件工程实践（代码评审、故障总结、自动化测试等等）带到了 XDSDK 团队里，也带来了很好的效果。
+- 系统架构上能够除了注意功能性需求的扩展性以外也更加关注非功能性的设计，比如可观测性、高可用等等。
 
 ### 做得不太好的
 
@@ -283,3 +284,103 @@ tags:
 
 
 
+
+
+
+
+
+# LeanCloud
+
+## 角色
+RTM 小组 Tech Lead ,业务上主要负责：即时通信、消息推送、即时语音三个方向。
+
+## 工作内容
+- 即时通信、消息推送、即时语音三个系统去 Clojure 技术栈，进展不大
+- 建设 Clojure 技术栈向 Golang 转移过程中所需要的公共组件建设，类似基础架构的工作
+
+
+### 即时语音
+- 二道贩子封装了腾讯云的语音服务
+- 针对游戏场景做了一些封装
+
+### 应用元数据
+**核心应用**
+提供 GRPC 服务
+MySQL + 本地缓存
+
+- 适合存储频繁访问且数据量不大的数据
+- 无网络延迟
+- 一致性要求不高
+
+使用下面引入的本地缓存组件
+### 本地缓存
+
+[开源组件](https://github.com/goburrow/cache)  
+
+- 原来用的 caffeine ，因此继续用 Golang 版本的 caffeine
+- TinyLFU 
+- 自定义 reloader 异步更新值，如果后端发生错误依旧使用旧值。
+- 性能好
+- 其他选项：BigCache、FreeCache、Sync.Map
+
+
+缓存策略：tinylfu maxsize：600，refreshtime:10m，ResilientReloader
+
+### Web MiddleWare
+gin.HandlerFunc
+
+- auth:  解析参数+ grpc 确认是否有权限。grpc/metadata + OutgoingContext  +  golang Context 
+- log：
+   - 选型：logrus、zap、zerolog
+   - slowlog：耗时超过一定时间的自动记录 log ，然后发送到 sentry
+   - panic 和 error 发送到 ：sentry ，zerolog
+      - 在 recover mw(grpc、web) 中使用
+
+- metric to prometheus
+   - request counter ：**Counter**
+   - request latency：**Histogram**
+- 懒加载 Route
+   - Gin 的 RouteGroup 不满足
+   - 减少不必要的中间件函数调用，从而提高路由处理的性能。只有当路由被请求时，相关的中间件函数才会被应用，避免了在路由注册阶段就执行所有中间件函数的开销。可以将路由的定义模块化，使得不同部分的路由可以独立定义和管理，更好地实现代码的组织和复用。
+   - gin.HandlersChain
+   - Mount、Dock 方法
+- recover 异常恢复
+- error status format 统一对外错误格式和响应码
+
+
+### GRPC MiddleWare  
+UnaryServerInterceptor
+
+- auth 两个 rpc 服务间调用的授权
+- log  
+   - slowlog：耗时超过一定时间的自动记录 log ，然后发送到 sentry
+   - panic 和 error 发送到 ：sentry ，zerolog
+- error:
+   - converts a HTTP error code into the corresponding gRPC response status.
+   - See: [https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto](https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto)
+- recover
+   -  error 发送到 ：sentry ，zerolog
+
+
+### Json-RPC client
+Json-RPC client 
+
+基于 json-rpc 2.0 protocol,  protocol 大致是：
+```
+    --> {"jsonrpc": "2.0", "method": "subtract", "params": [42, 23], "id": 1}
+    <-- {"jsonrpc": "2.0", "result": 19, "id": 1}
+```
+
+为了便于测试，提供了一个 mock server
+
+## 工作成果
+
+- 多个基础组件，实际的工作比上面列出来的多得多。
+- 支撑了存储从 Clojure 向 Golang 的迁移，支撑新开业务 lake、语音通信服务的建设。
+
+### 收获
+- 开发基础组件的体验，收获一些 Golang 开发的最佳实践，比如 Functional Options 模式，大量使用了这种模式
+
+### 遗憾
+- 只参与了其中一个业务系统在 Golang 上的迁移
+- 没能全面了解 LeanCloud 所有系统的全貌
