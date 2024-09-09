@@ -1,32 +1,18 @@
----
-layout:     post
-title:      TDS 工作总结
-subtitle:   XDSDK 部分
-date:       2023-10-21
-author:     Lnn
-header-img: img/home-bg-art.jpg
-catalog: 	 true
-tags:
-    - 工作总结
-    - XDSDK
----
-
-
-
 ![image.png](https://linnaname.github.io/img/blog/summarize/2023-10-21-01.png)
 
 ![youxiu](https://linnaname.github.io/img/blog/summarize/2022-12-31_07.jpg)
 
 ![image.png](https://linnaname.github.io/img/blog/summarize/2023-10-21-02.png)
 
-
 # 角色
+
 **XDSDK 技术负责人，后端工程师**。
 
 整个团队的实际负责人，研发实线汇报，产品等虚线，大致 12 人左右（ HR 核算的人力成本）。
 团队包括：客户端、后端等实线，产品同事向自己的产品专业线汇报。
 
 # 业务范围
+
 心动 100 多款自研或者代理游戏玩家的登录、用户、支付功能。 [开发者文档](https://docs.xdglobalapi.com/)
 
 聚合支付：年支付流水 20 亿元+;登录：支撑多个百万 DAU 的游戏，峰值 QPS 1 W+。
@@ -44,10 +30,8 @@ tags:
 - 为玩家提供好的、稳定的登录、用户、内购支付体验
 - 为内部游戏提供便于接入且稳定的登录、用户、内购支付中台
 - 影响游戏和公司营收：
-    - 登录：影响用户进来，游戏会买量，登录稳定性、转化会直接影响游戏支出，买量了之后用户注册不进来都是直接的成本。
-    - 支付：支付稳定性和支付转化直接影响公司营收。
-
-
+  - 登录：影响用户进来，游戏会买量，登录稳定性、转化会直接影响游戏支出，买量了之后用户注册不进来都是直接的成本。
+  - 支付：支付稳定性和支付转化直接影响公司营收。
 
 **现状**
 
@@ -71,17 +55,18 @@ tags:
 ### 对外沟通
 
 - 游戏研发、策略、运营：
-   - 统一对外沟通对接人员：我和产品经理
-   - 固定的会议沟通，重点游戏每个月一次，非重点游戏两个月一次
-   - 共享团队 OKR
-   - 偶尔参加重点游戏的周会
+  - 统一对外沟通对接人员：我和产品经理
+  - 固定的会议沟通，重点游戏每个月一次，非重点游戏两个月一次
+  - 共享团队 OKR
+  - 偶尔参加重点游戏的周会
 - 客服、财务、翻译等横向人员
-   - 统一对外沟通对接人员：产品经理
-   - 固定的会议沟通，每个季度一次
+  - 统一对外沟通对接人员：产品经理
+  - 固定的会议沟通，每个季度一次
 - 跨办公室沟通
-   - 新加坡：固定的会议沟通，每月沟通一次
+  - 新加坡：固定的会议沟通，每月沟通一次
 
 ### 团队内
+
 识别核心瓶颈
 
 - 工程质量意识差
@@ -92,11 +77,12 @@ tags:
 #### 主动沟通
 
 - 每周全员周会、每月计划会议
-- 研发：3 周一次  one one
+- 研发：3 周一次 one one
 - 产品：一个月一次 one one
 - 其他合作伙伴：季度 one one
 
 #### 工程改进
+
 后面技术部分会详细提到，策略是：**小步改进和重构**
 
 #### 需求和项目管理
@@ -128,6 +114,7 @@ tags:
 - 季度 OKR 由全团队共同制定，先民主后集中的方式
 - OKR 共享给业务方，使版本更具有前瞻性
 - 适当投资长期价值的事情：自动化工具、管理后台功能逐步沉淀，历史遗留
+
 ### 向上管理
 
 - **日常**：多主动沟通，不要害怕求助，及时预警风险。
@@ -141,6 +128,7 @@ tags:
 ### 架构
 
 国内、海外，全球发行
+
 #### 登录系统
 
 - **前台**：网站、H5、小程序、客户端 SDK
@@ -150,6 +138,7 @@ tags:
 - **业务监控**：全局、单个登录渠道的登录成功率，QPS、RT 等
 
 #### 用户系统
+
 - **前台**：网站、H5、小程序、客户端 SDK
 - **API-Gatway**：校验签名、应用信息，无路由
 - **业务逻辑**：channel 负责登录渠道逻辑，notify 通知, schedule 定时
@@ -162,14 +151,15 @@ tags:
 - **支付订单 order**: 预订单
 - **支付渠道 channel：**国内、海外等
 - **支付到账**：trade 各种校验：风控、防沉迷等
-- **到账通知**：notify  HTTP 通知下游
+- **到账通知**：notify HTTP 通知下游
 - **后台**：资金核算、管理后台
 - **业务监控**：支付全生命周期
 
 ### 拆分
+
 #### 拆分原则
 
-一开始尝试引入 DDD 的思想来推进，但是考虑到团队成员的经验和项目的阶段，就没有。而是采用**简单且符合直觉*的设计，更有利于小团队。
+一开始尝试引入 DDD 的思想来推进，但是考虑到团队成员的经验和项目的阶段，就没有。而是采用\**简单且符合直觉*的设计，更有利于小团队。
 
 - 单一职责。服务或模块只为一个业务目标或功能领域服务。这有助于确保系统的每个部分都保持简单和专注，从而易于理解和维护。
 - 自治性。每个服务控制自己的数据和逻辑，并且尽可能减少对其他服务的依赖。自治性越高，服务间的耦合度就越低，系统的整体可靠性和稳定性也就越高。
@@ -178,39 +168,38 @@ tags:
 - 解耦。应该通过定义清晰的接口和协议来解耦服务，同时封装内部逻辑，只暴露必要的操作和数据。保证了服务的独立性。
 - 在可能的情况下，优先选择异步通信机制（如消息队列），以减少服务间的直接依赖。这可以提高系统的响应性和可靠性，特别是在分布式环境中。
 
-
-
 - 共用模块： client 游戏应用信息、uniqueId 全局 id。
+
 #### 登录与用户
 
 - 登录系统和用户系统拆分，隔离
-   - 登录系统的职责
-      - **凭证验证**：接收用户提供的登录凭证（如用户名和密码、手机短信验证码、电子邮件链接、社交媒体账号等），并验证这些凭证的有效性。
-      - **第三方认证集成**：登录系统将处理与这些第三方服务（例如Google, Facebook, Twitter等）的交互，包括重定向到第三方登录页面、处理回调请求等。
-      - **令牌管理**：一旦用户成功验证，登录系统会生成一个令牌（Token），如JWT（JSON Web Tokens）。这个令牌将用于用户后续请求的身份验证和授权。负责管理令牌的生命周期，包括令牌的刷新和失效处理。
-      - **安全性保障**：图形验证码、登录风控：设备、次数等等。
-      - **引入网关**：限流、熔断、context 传递、检查和解析JWT令牌来确认用户是否登录以及令牌的有效性、渠道路由、按游戏路由。
-      - **其他**：登录设备、登录日志等。
-   - 用户系统的职责
-      - 用户信息
-         - 基础信息：可变性弱、可变性强
-         - 其他游戏信息
-      - 安全策略：可登录设备管理
-      - 第三方登录渠道关联信息
-      - 绑定、解绑、注销等用户管理
 
+  - 登录系统的职责
+    - **凭证验证**：接收用户提供的登录凭证（如用户名和密码、手机短信验证码、电子邮件链接、社交媒体账号等），并验证这些凭证的有效性。
+    - **第三方认证集成**：登录系统将处理与这些第三方服务（例如 Google, Facebook, Twitter 等）的交互，包括重定向到第三方登录页面、处理回调请求等。
+    - **令牌管理**：一旦用户成功验证，登录系统会生成一个令牌（Token），如 JWT（JSON Web Tokens）。这个令牌将用于用户后续请求的身份验证和授权。负责管理令牌的生命周期，包括令牌的刷新和失效处理。
+    - **安全性保障**：图形验证码、登录风控：设备、次数等等。
+    - **引入网关**：限流、熔断、context 传递、检查和解析 JWT 令牌来确认用户是否登录以及令牌的有效性、渠道路由、按游戏路由。
+    - **其他**：登录设备、登录日志等。
+  - 用户系统的职责
+    - 用户信息
+      - 基础信息：可变性弱、可变性强
+      - 其他游戏信息
+    - 安全策略：可登录设备管理
+    - 第三方登录渠道关联信息
+    - 绑定、解绑、注销等用户管理
 
 - **代码拆分**：user 账户，channel 负责渠道，notify 通知, schedule 定时
-   - manager  管理后台独立
 
+  - manager 管理后台独立
 
 - 聚合支付系统拆分
-   - **代码拆分**：account 账户、channel 渠道、promotion 营销、order 订单、trade 交易中控、product 商品,notify 通知、merch 商户、common 公共
-   - 对账系统独立。
+  - **代码拆分**：account 账户、channel 渠道、promotion 营销、order 订单、trade 交易中控、product 商品,notify 通知、merch 商户、common 公共
+  - 对账系统独立。
 
 ### 工程改进
 
-#### 支付 
+#### 支付
 
 - 发货通知异步通知从内存改为 RocketMQ ，发布重启期间，不会导致无法通知到下游。
 - 引入支付业务网关：可按重点游戏隔离、可按支付渠道隔离。
@@ -230,7 +219,7 @@ tags:
 
 ### 工程质量明显提升
 
-- 从经常故障 ->  3 个月内无故障 -> 6 个月内无故障-> 一年内无故障。
+- 从经常故障 -> 3 个月内无故障 -> 6 个月内无故障-> 一年内无故障。
 - 代码评审、单元测试、自动化测试、CI/CD 等形成长期可持续的研发制度。
 - 资金对账系统：减少财务资金损失。
 - 支撑多个新游戏上线，无明显故障。
@@ -244,18 +233,19 @@ tags:
 
 - 半月小版本，一个月大版本
 - 需求和项目管理进入正轨化
+
 ### 个人荣誉
 
 - 成为团队负责人，研发向我实线汇报，项目组其他同事虚线。
 - 2022 年度优秀员工， 100 多人的大团队里唯一一个**年度优秀员工。**
-![youxiu](https://linnaname.github.io/img/blog/summarize/2022-12-31_07.jpg)
+  ![youxiu](https://linnaname.github.io/img/blog/summarize/2022-12-31_07.jpg)
 
 ![image.png](https://linnaname.github.io/img/blog/summarize/2023-10-21-02.png)
-
 
 # 教训与收获
 
 ## 管理
+
 ### 做得比较好的
 
 - **主动沟通**：主动与 leader、下属、外部合作者沟通，主动去约一个会议，一两次之后大家也就更加放得开了。
@@ -282,28 +272,24 @@ tags:
 
 - 技术的广度不够：带的是混合团队，但是在技术的广度上还不够，比如前端、客户度。创业型的公司往往缺的是从 0 ~ 1 的人。这可能需要很长的时间去弥补。
 
-
-
-
-
-
-
-
 # LeanCloud
 
 ## 角色
+
 RTM 小组 Tech Lead ,业务上主要负责：即时通信、消息推送、即时语音三个方向。
 
 ## 工作内容
+
 - 即时通信、消息推送、即时语音三个系统去 Clojure 技术栈，进展不大
 - 建设 Clojure 技术栈向 Golang 转移过程中所需要的公共组件建设，类似基础架构的工作
 
-
 ### 即时语音
+
 - 二道贩子封装了腾讯云的语音服务
 - 针对游戏场景做了一些封装
 
 ### 应用元数据
+
 **核心应用**
 提供 GRPC 服务
 MySQL + 本地缓存
@@ -313,59 +299,62 @@ MySQL + 本地缓存
 - 一致性要求不高
 
 使用下面引入的本地缓存组件
+
 ### 本地缓存
 
-[开源组件](https://github.com/goburrow/cache)  
+[开源组件](https://github.com/goburrow/cache)
 
 - 原来用的 caffeine ，因此继续用 Golang 版本的 caffeine
-- TinyLFU 
+- TinyLFU
 - 自定义 reloader 异步更新值，如果后端发生错误依旧使用旧值。
 - 性能好
 - 其他选项：BigCache、FreeCache、Sync.Map
 
-
 缓存策略：tinylfu maxsize：600，refreshtime:10m，ResilientReloader
 
 ### Web MiddleWare
+
 gin.HandlerFunc
 
-- auth:  解析参数+ grpc 确认是否有权限。grpc/metadata + OutgoingContext  +  golang Context 
+- auth: 解析参数+ grpc 确认是否有权限。grpc/metadata + OutgoingContext + golang Context
 - log：
-   - 选型：logrus、zap、zerolog
-   - slowlog：耗时超过一定时间的自动记录 log ，然后发送到 sentry
-   - panic 和 error 发送到 ：sentry ，zerolog
-      - 在 recover mw(grpc、web) 中使用
+
+  - 选型：logrus、zap、zerolog
+  - slowlog：耗时超过一定时间的自动记录 log ，然后发送到 sentry
+  - panic 和 error 发送到 ：sentry ，zerolog
+    - 在 recover mw(grpc、web) 中使用
 
 - metric to prometheus
-   - request counter ：**Counter**
-   - request latency：**Histogram**
+  - request counter ：**Counter**
+  - request latency：**Histogram**
 - 懒加载 Route
-   - Gin 的 RouteGroup 不满足
-   - 减少不必要的中间件函数调用，从而提高路由处理的性能。只有当路由被请求时，相关的中间件函数才会被应用，避免了在路由注册阶段就执行所有中间件函数的开销。可以将路由的定义模块化，使得不同部分的路由可以独立定义和管理，更好地实现代码的组织和复用。
-   - gin.HandlersChain
-   - Mount、Dock 方法
+  - Gin 的 RouteGroup 不满足
+  - 减少不必要的中间件函数调用，从而提高路由处理的性能。只有当路由被请求时，相关的中间件函数才会被应用，避免了在路由注册阶段就执行所有中间件函数的开销。可以将路由的定义模块化，使得不同部分的路由可以独立定义和管理，更好地实现代码的组织和复用。
+  - gin.HandlersChain
+  - Mount、Dock 方法
 - recover 异常恢复
 - error status format 统一对外错误格式和响应码
 
+### GRPC MiddleWare
 
-### GRPC MiddleWare  
 UnaryServerInterceptor
 
 - auth 两个 rpc 服务间调用的授权
-- log  
-   - slowlog：耗时超过一定时间的自动记录 log ，然后发送到 sentry
-   - panic 和 error 发送到 ：sentry ，zerolog
+- log
+  - slowlog：耗时超过一定时间的自动记录 log ，然后发送到 sentry
+  - panic 和 error 发送到 ：sentry ，zerolog
 - error:
-   - converts a HTTP error code into the corresponding gRPC response status.
-   - See: [https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto](https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto)
+  - converts a HTTP error code into the corresponding gRPC response status.
+  - See: [https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto](https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto)
 - recover
-   -  error 发送到 ：sentry ，zerolog
-
+  - error 发送到 ：sentry ，zerolog
 
 ### Json-RPC client
-Json-RPC client 
 
-基于 json-rpc 2.0 protocol,  protocol 大致是：
+Json-RPC client
+
+基于 json-rpc 2.0 protocol, protocol 大致是：
+
 ```
     --> {"jsonrpc": "2.0", "method": "subtract", "params": [42, 23], "id": 1}
     <-- {"jsonrpc": "2.0", "result": 19, "id": 1}
@@ -379,8 +368,10 @@ Json-RPC client
 - 支撑了存储从 Clojure 向 Golang 的迁移，支撑新开业务 lake、语音通信服务的建设。
 
 ### 收获
+
 - 开发基础组件的体验，收获一些 Golang 开发的最佳实践，比如 Functional Options 模式，大量使用了这种模式
 
 ### 遗憾
+
 - 只参与了其中一个业务系统在 Golang 上的迁移
 - 没能全面了解 LeanCloud 所有系统的全貌

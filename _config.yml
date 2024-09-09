@@ -5,36 +5,29 @@ SEOTitle: 不二木子的博客 | Lnn Blog
 email: utodea@gmail.com
 description: "且当无聊絮絮叨叨."
 keyword: "Lnn, Lnn Blog, 不二木子的博客"
-url: "http://linnaname.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://linnaname.github.io" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "但愿离去是幸，我愿永不归来!"
 # sidebar-avatar: /img/IMG_1347.jpeg       # use absolute URL, seeing it's used in both `/` and `/about/`
 
-
-
 # SNS settings
 RSS: true
-zhihu_username:     feng-bo-lin-1
-twitter_username:   LinGoranka
+zhihu_username:
+twitter_username:
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
-
-
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -43,57 +36,31 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
+  input: GFM # use Github Flavored Markdown !important
 
 # 统计
 
 # Analytics settings
 
 # Google Analytics
-ga_track_id: 'G-PF8LDKJ1S9'            # Format: UA-xxxxxx-xx
-ga_domain: www.linnana.me            # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-
-
-
+ga_track_id: "G-PF8LDKJ1S9" # Format: UA-xxxxxx-xx
+ga_domain: www.linnana.me # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
-
-
+featured-tags: true # 是否使用首页标签
+featured-condition-size: 1 # 相同标签数量大于这个数，才会出现在首页
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
 # Friends
-friends: [
-   {
-        title: "江宏",
-        href: "https://1byte.io"
-    },
-    {
-      title: "王子亭",
-      href: "https://jysperm.me"
-    },
-    {
-        title: "RE1IFE",
-        href: "https://www.re1ife.top"
-    },
-    {
-        title: "mephisto",
-        href: "https://mephisto.cc"
-    },
-    {
-        title: "元否的工作坊",
-        href: "https://www.happyfou.com"
-    },
-    {
-      title: "LOONG CHEUNG",
-      href: "https://www.xmrss.com"
-    }
-]
+friends:
+  [
+    { title: "江宏", href: "https://1byte.io" },
+    { title: "王子亭", href: "https://jysperm.me" },
+    { title: "RE1IFE", href: "https://www.re1ife.top" },
+    { title: "mephisto", href: "https://mephisto.cc" },
+    { title: "元否的工作坊", href: "https://www.happyfou.com" },
+    { title: "LOONG CHEUNG", href: "https://www.xmrss.com" },
+  ]
