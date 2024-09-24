@@ -10,7 +10,11 @@
 
 #### 《李光耀论世界与中国》
 
+《 Lee Kuan Yew: The Grand Master’s Insights on China, the United States, and the World》
+没有学术的民主和思想的自由，科学就不可能繁荣。
+
 #### 《芯片战争》
+
 
 #### 《科学：无尽的前沿》
 
