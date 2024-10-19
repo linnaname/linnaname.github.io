@@ -1,55 +1,11 @@
-name: Scheduled Tasks
+name: Test Workflow
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:  # 添加这一行
+  workflow_dispatch:
 
 jobs:
-  sync_upcoming_launches:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync Upcoming Launches
-        run: |
-          response=$(curl -s "https://server-chat-gf.vercel.app/api/sync/launch?type=upcoming")
-          echo "Upcoming Launches Response: $response"
-
-  sync_previous_launches:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Sync Previous Launches
-        run: |
-          response=$(curl -s "https://server-chat-gf.vercel.app/api/sync/launch?type=previous")
-          echo "Previous Launches Response: $response"
-
-  sync_upcoming_events:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Sync Upcoming Events
-        run: |
-          response=$(curl -s "https://server-chat-gf.vercel.app/api/sync/event?type=upcoming")
-          echo "Upcoming Events Response: $response"
-
-  sync_previous_events:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Sync Previous Events
-        run: |
-          response=$(curl -s "https://server-chat-gf.vercel.app/api/sync/event?type=previous")
-          echo "Previous Events Response: $response"
-
-  sync_agencies:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Sync Agencies
-        run: |
-          response=$(curl -s "https://server-chat-gf.vercel.app/api/sync/agency")
-          echo "Agencies Response: $response"
-
-  sync_launchers:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Sync Launchers
-        run: |
-          response=$(curl -s "https://server-chat-gf.vercel.app/api/sync/launcher")
-          echo "Launchers Response: $response"
+      - name: Hello World
+        run: echo "Hello World"
