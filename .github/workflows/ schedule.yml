@@ -3,6 +3,7 @@ name: Scheduled Tasks
 on:
   schedule:
     - cron: '*/5 * * * *'
+  workflow_dispatch:  # 添加这一行
 
 jobs:
   sync_upcoming_launches:
