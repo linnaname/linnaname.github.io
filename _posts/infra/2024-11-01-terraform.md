@@ -2,7 +2,7 @@
 layout: post
 title: Terraform 念念碎
 subtitle: Terraform 念念碎
-date: 2024-11-11
+date: 2024-11-01
 author: Lnn
 header-img: img/home-bg-art.jpg
 catalog: true
