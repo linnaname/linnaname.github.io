@@ -31,11 +31,11 @@ Terraform 毫无疑问是一个很好的基础设施治理方案，采用声明�
 
 提交 Pull Request 之后，会自动触发 fmt、validate、plan，可以非常方便的在 Pull Request 内看到 plan 的结果。
 
-![alt text](image-2.png)
+![alt text](https://linnaname.github.io/img/blog/tech/terraform/image-2.png)
 
 但它并不支持评论区指令识别的功能，自行 review plan 结果，确认出现的结果是你需要的，在 merge 之后，可以自动或者手动 apply。
 
-![alt text](image-3.png)
+![alt text](https://linnaname.github.io/img/blog/tech/terraform/image-3.png)
 
 ### 最佳实践？
 
@@ -43,13 +43,13 @@ Terraform 毫无疑问是一个很好的基础设施治理方案，采用声明�
 - Pull Request 记得标记 WIP 和 Draft，避免误操作合并
 - 如果你是自托管的 Gitlab，并使用 [Atlantis](https://www.runatlantis.io) 那么你可以 hack 更多的逻辑做 tf 文件命名、资源命名、格式等等的规范，让自动化的过程更规范。
 
-![alt text](image-4.png)
+![alt text](https://linnaname.github.io/img/blog/tech/terraform/image-4.png)
 
 - 提供类似 `infra/template/default.tf` 这样的模版，
 - 尽可能地模块化
 
-  ![alt text](image-5.png)
-  ![alt text](image-6.png)
+  ![alt text](https://linnaname.github.io/img/blog/tech/terraform/image-5.png)
+  ![alt text](https://linnaname.github.io/img/blog/tech/terraform/image-6.png)
 
 ## 吐槽
 
@@ -65,11 +65,11 @@ Terraform 是一个有状态的工具，它利用状态用来维护所定义的�
 
 比如我在增加 grafana 时，helm 源一直超时，等待了几分钟后无果手贱强行结束了 Gitlab 的 apply job 导致的 state 锁定。于是所有人包括你自己都无法进行其他的 apply 操作了，只能在如图这个页面上点击 Action 中的 unlock 来解锁。
 
-![alt text](image.png)
+![alt text](https://linnaname.github.io/img/blog/tech/terraform/image.png)
 
 如下图是我尝试在本地进行一次测试时，自动生成的一些 state 文件，但在只有可能几十个左右的资源类型的时候执行 plan 命令依然需要好几分钟才能有结果。
 
-![alt text](image-1.png)
+![alt text](https://linnaname.github.io/img/blog/tech/terraform/image-1.png)
 
 给我的感受是：**Terraform 在状态这一块有一个稀烂的实现。**
 
