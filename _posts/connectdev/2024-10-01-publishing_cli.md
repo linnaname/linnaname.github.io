@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何发布一个命令行工具
-subtitle:自动化
+subtitle: 自动化
 date: 2024-10-01
 author: Lnn
 header-img: img/home-bg-art.jpg
