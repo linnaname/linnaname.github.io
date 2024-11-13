@@ -26,6 +26,8 @@ tags:
 
 Library 方面则使用选择了 [React](https://react.dev)。React 的学习成本真的非常低，除了 JSX，其它都是原生的 ES 的概念。而 VUE 谈不上难，却也是引入一些有别于 ES 的新概念。比如渲染列表，React 中只需要纯粹的 ES 方法 map，而 VUE 则需要理解 v-for 的新概念。当你使用 map 的时候它非常**符合直觉**，比如很多其他的编程语言都支持类似的操作，而当你看到 v-for 的时候并不符合直觉, 甚至你会想为什么不是 a-for/vfor 偏偏是 v-for 呢？
 
+并且 React 对于我这类偶尔写前端的一个好处:**需要记住的东西非常少**。除了少数几个 hook 以及 API 基本上都**不需要记**，只需要写 TypeScript 就可以了。
+
 2019 年 React 正式引入了 hook 功能。使得 function 组件也像 class 组件一样能维护状态，并且所有的组件都可以写成函数的形式，比起原有的以 class 的多个方法来维护组件生命周期的方式，简化了代码。不过有了 hook 之后 function 也可以有状态了，如果不仔细了解实现机制的话，很容易产生一些奇怪的 bug。State Management 我选择了 [zustand](https://github.com/pmndrs/zustand)，它真的非常符合官方的描述：**small, fast and scalable bearbones state-management solution**。
 
 ### react-bootstrap
@@ -38,13 +40,13 @@ Library 方面则使用选择了 [React](https://react.dev)。React 的学习成
 
 我把可复用的放在了 component 目录，pages 则是具体的页面。
 
-![alt text](https://linnaname.github.io/img/blog/tech/fontend/image_01.png)
+![alt text](https://linnaname.github.io/img/blog/tech/connectdev/fontend/image_01.png)
 
 当然我并不是一个专业的前端工程师，欢迎大家的建议！
 
 为了更方便地在项目里 axios 我还对它进行了一点小小的封装。
 
-![alt text](https://linnaname.github.io/img/blog/tech/fontend/image_05.png)
+![alt text](https://linnaname.github.io/img/blog/tech/connectdev/fontend/image_05.png)
 
 ## 测试
 
@@ -52,19 +54,19 @@ Library 方面则使用选择了 [React](https://react.dev)。React 的学习成
 
 vscode-jest 和 Jest Runner 等可以非常方便在编辑器内运行这些测试。
 
-![alt text](https://linnaname.github.io/img/blog/tech/fontend/image_01.png)
+![alt text](https://linnaname.github.io/img/blog/tech/connectdev/fontend/image_01.png)
 
 当然 `npm test` 也非常方便。
 
-![alt text](https://linnaname.github.io/img/blog/tech/fontend/image.png)
+![alt text](https://linnaname.github.io/img/blog/tech/connectdev/fontend/image.png)
 
 ## 部署
 
 使用 Docker 通过 Gitlab CI/CD 部署到 Kubernetes 也非常方便
 
-![alt text](https://linnaname.github.io/img/blog/tech/fontend/image_02.png)
+![alt text](https://linnaname.github.io/img/blog/tech/connectdev/fontend/image_02.png)
 
-![alt text](https://linnaname.github.io/img/blog/tech/fontend/image_03.png)
+![alt text](https://linnaname.github.io/img/blog/tech/connectdev/fontend/image_03.png)
 
 ## 前端的快速发展
 
