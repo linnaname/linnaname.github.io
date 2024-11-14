@@ -102,6 +102,6 @@ Gitlab 可以非常方便的连接 Kubernetes（[参考文档](https://docs.gitl
 
 - 非常方便的集成 kiali 控制面板、prometheus、grafana、jaeger 等组件，提高系统的可观察性。
 
-![alt text](https://linnaname.github.io/img/blog/tech/engineering/image_07.png)
+![alt text](https://linnaname.github.io/img/blog/tech/connectdev/engineering/image_07.png)
 
 我目前就一直在用 Istio，目前感觉还不错。当然需要承认 sidecar 的方式是会带来一定的性能损失的。
