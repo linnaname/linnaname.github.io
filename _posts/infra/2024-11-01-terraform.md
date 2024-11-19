@@ -43,8 +43,6 @@ Terraform 毫无疑问是一个很好的基础设施治理方案，采用声明�
 - Pull Request 记得标记 WIP 和 Draft，避免误操作合并
 - 如果你是自托管的 Gitlab，并使用 [Atlantis](https://www.runatlantis.io) 那么你可以 hack 更多的逻辑做 tf 文件命名、资源命名、格式等等的规范，让自动化的过程更规范。
 
-![alt text](https://linnaname.github.io/img/blog/tech/terraform/image-4.png)
-
 - 提供类似 `infra/template/default.tf` 这样的模版，
 - 尽可能地模块化
 
