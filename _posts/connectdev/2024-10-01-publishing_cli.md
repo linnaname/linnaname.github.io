@@ -78,11 +78,7 @@ tags:
 
 单元测试、构建、打包、上传等动作，除了自己动手之外，也可以用 [Github Actions](https://docs.github.com/en/actions) 来完成，**提高工作和摸鱼效率**。
 
-设置交叉编译
-
-![alt text](https://linnaname.github.io/img/blog/tech/connectdev/cli/image_05.png)
-
-把发布到 PyPI 的流程也自动化掉
+设置交叉编译并且把发布到 PyPI 的流程也自动化掉
 
 ![alt text](https://linnaname.github.io/img/blog/tech/connectdev/cli/image_06.png)
 

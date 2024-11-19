@@ -20,7 +20,7 @@ tags:
 
 ### TypeScript
 
-[TypeScript](https://www.typescriptlang.org) 可以说是**让前端开发更能让人接受了**，或者说是重新创造了一遍 JavaScript。 Structural type system，支持泛型、类型检查等无疑给工程实践和维护上带来了巨大的益处。而且 TypeScript 的入门成本可以说非低，即使你只有一点点 JavaScript 基础也很容易上手。
+[TypeScript](https://www.typescriptlang.org) 可以说是**让前端开发更能让人接受了**，或者说是重新创造了一遍 JavaScript（better JavaScript 呀）。 Structural type system，泛型、类型检查等无疑给工程实践和维护上带来了巨大的益处。而且 TypeScript 的入门成本可以说非常低，即使你只有一点点 JavaScript 基础也很容易上手。
 
 ### React
 
@@ -28,7 +28,7 @@ Library 方面则使用选择了 [React](https://react.dev)。React 的学习成
 
 并且 React 对于我这类偶尔写前端的一个好处:**需要记住的东西非常少**。除了少数几个 hook 以及 API 基本上都**不需要记**，只需要写 TypeScript 就可以了。
 
-提到 hook， 2019 年 React 正式引入了 hook 功能。使得 function 组件也像 class 组件一样能维护状态，并且所有的组件都可以写成函数的形式，比起原有的以 class 的多个方法来维护组件生命周期的方式，简化了代码，你看又少记几个生命周期方法。不过有了 hook 之后 function 也可以有状态了，如果不仔细了解实现机制的话，很容易导致一些奇怪的 bug。State Management 我选择了 [zustand](https://github.com/pmndrs/zustand)，它真的非常符合官方的描述：**small, fast and scalable bearbones state-management solution**。
+提到 hook， 2019 年 React 正式引入了 hook 功能。使得所有的组件都可以写成函数的形式，比起原有的以 class 的多个方法来维护组件生命周期的方式，简化了代码，**你看又少记几个生命周期方法**。不过有了 hook 之后 function 也可以有状态了，如果不小心，很容易导致一些奇怪的 bug。State Management 我选择了 [zustand](https://github.com/pmndrs/zustand)，它真的非常符合官方的描述：**small, fast and scalable bearbones state-management solution**。
 
 ### react-bootstrap
 
