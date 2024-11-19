@@ -40,7 +40,7 @@ Library 方面则使用选择了 [React](https://react.dev)。React 的学习成
 
 我把可复用的放在了 component 目录，pages 则是具体的页面。
 
-![alt text](https://linnaname.github.io/img/blog/tech/connectdev/fontend/image_01.png)
+![alt text](https://linnaname.github.io/img/blog/tech/connectdev/fontend/image_04.png)
 
 当然我并不是一个专业的前端工程师，欢迎大家的建议！
 
