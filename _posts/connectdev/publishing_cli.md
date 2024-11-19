@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: 如何发布一个命令行工具
 subtitle: 自动化
@@ -12,7 +12,7 @@ tags:
   - Command Line Tool
   - 自动化
   - Github Action
----
+--- -->
 
 之前开发了命令行工具,这里总结一下如何发布一个命令行工具。
 
